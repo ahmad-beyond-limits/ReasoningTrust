@@ -86,13 +86,17 @@ We tested whether the effect of reasoning quality (X) on trust (Y) is mediated b
 ![Mediation Scatter Plot](analysis/glm/3_mediation_scatter_plot.png)
 *Figure 3: Linear relationship between explanation quality and trust rating. The strong correlation highlights how explanation quality directly mediates user trust, serving as the interface through which reasoning soundness is perceived.*
 
----
-
 ### Conclusion: What the GLM Results Reflect
 The GLM analysis exposes critical insights into the dynamics of human-AI trust:
 1. **Outcome Bias / Primacy of Correctness**: Users prioritize accuracy. A correct answer with flawed logic (trust = 5.100) is trusted significantly more than an incorrect answer with sound logic (trust = 2.575). Explanations are not a substitute for correctness.
 2. **Trust Cushioning (The Paradox)**: If an error is made, a logical and sound reasoning chain helps cushion the drop in trust, recovering nearly 1 full point on a 7-point scale.
 3. **The Persuasion Vulnerability**: Because trust is fully mediated by the *perceived quality of the explanation* (rather than direct verification of correctness), a highly articulate, persuasive reasoning chain can lead users to over-trust incorrect answers. This highlights a significant safety and reliability concern for conversational agents.
+
+### Key Takeaways
+* **Correctness is the primary driver of trust** – Correctness is the strongest predictor of trust, with a very large effect. While reasoning quality also matters, its direct influence is significantly smaller.
+* **Good explanations partially recover trust (The "Explainability Paradox")** – If the final answer is wrong, a sound step-by-step reasoning chain cushions the loss of trust, recovering nearly 1 full point on a 7-point scale.
+* **Trust is mediated by perception** – The effect of reasoning on trust operates entirely through perceived explanation quality (full mediation). How an explanation is perceived is the core mechanism linking reasoning quality to trust.
+* **Persuasiveness creates safety risks** – Since trust depends on how convincing the explanation looks rather than actual correctness, systems must communicate uncertainty and make it easy for users to verify claims to prevent over-trust in incorrect outputs.
 
 
 ## Replication Instructions
