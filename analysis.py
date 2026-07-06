@@ -30,26 +30,22 @@ def load_data(file_path):
     
     rows = []
     for item in data:
-        problem_id = item['problem_id']
-        evaluations = item['evaluations']
+        condition_key = item.get('variant_type', '')
+        ans_correct = 1 if 'correct_ans' in condition_key else 0
+        reason_correct = 1 if 'correct_reasoning' in condition_key else 0
         
-        for persona, variants in evaluations.items():
-            for condition_key, result in variants.items():
-                ans_correct = 1 if 'correct_ans' in condition_key else 0
-                reason_correct = 1 if 'correct_reasoning' in condition_key else 0
-                
-                trust = result.get('trust', np.nan) if isinstance(result, dict) else np.nan
-                quality = result.get('quality', np.nan) if isinstance(result, dict) else np.nan
-                
-                rows.append({
-                    'problem_id': problem_id,
-                    'judge_persona': persona,
-                    'answer_correctness': ans_correct,
-                    'reasoning_quality': reason_correct,
-                    'condition_key': condition_key,
-                    'trust_rating': pd.to_numeric(trust, errors='coerce'),
-                    'explanation_quality': pd.to_numeric(quality, errors='coerce')
-                })
+        trust = item.get('trust_rating', np.nan)
+        quality = item.get('explanation_quality', np.nan)
+        
+        rows.append({
+            'problem_id': item.get('problem_id'),
+            'judge_persona': item.get('judge_persona'),
+            'answer_correctness': ans_correct,
+            'reasoning_quality': reason_correct,
+            'condition_key': condition_key,
+            'trust_rating': pd.to_numeric(trust, errors='coerce'),
+            'explanation_quality': pd.to_numeric(quality, errors='coerce')
+        })
                 
     df = pd.DataFrame(rows)
     return df
@@ -218,20 +214,26 @@ def run_mediation(df, report):
     except Exception as e:
         report.write(f"Mediation Analysis Failed: {e}")
 
-def analyze(model_name):
-    model_dir = os.path.join("Results", model_name)
-    file_path = os.path.join(model_dir, "evaluation_results.json")
+def analyze():
+    import logging
+    model_name = os.environ.get("MODEL_NAME") or os.environ.get("GROQ_MODEL_NAME", "")
+    model_prefix = "glm" if "glm" in model_name.lower() else "qwen"
+    
+    model_dir = os.path.join("analysis", model_prefix)
+    file_path = os.path.join("results", f"data_{model_prefix}.json")
     report_path = os.path.join(model_dir, "analysis_report.txt")
     
-    print(f"Checking data for model '{model_name}'...")
+    logging.info(f"Checking data in {file_path}...")
     if not os.path.exists(file_path):
-        print(f"File not found: {file_path}. Have you run main.py for {model_name} yet?")
+        logging.error(f"File not found: {file_path}. Have you run the evaluation phase yet?")
         return
         
+    os.makedirs(model_dir, exist_ok=True)
+        
     df = load_data(file_path)
-    print(f"Successfully loaded {len(df)} evaluation records.")
+    logging.info(f"Successfully loaded {len(df)} evaluation records.")
     
-    print(f"Generating Statistical Report and Graphs in: {model_dir}/")
+    logging.info(f"Generating Statistical Report and Graphs in: {model_dir}/")
     report = ReportWriter(report_path)
     
     # Run stats and write to report
@@ -245,12 +247,7 @@ def analyze(model_name):
     plot_paradox(df, model_dir)
     plot_mediation(df, model_dir)
     
-    print(f"\nAnalysis Complete! View '{report_path}' and the PNG graphs in the '{model_dir}' folder.")
+    logging.info(f"\nAnalysis Complete! View '{report_path}' and the PNG graphs in the '{model_dir}' folder.")
 
 if __name__ == "__main__":
-    import argparse
-    parser = argparse.ArgumentParser(description="Run statistical analysis and graphing on evaluation results.")
-    parser.add_argument("model", choices=["qwen", "glm"], help="Specify 'qwen' or 'glm' to analyze respective results.")
-    args = parser.parse_args()
-    
-    analyze(args.model)
+    analyze()

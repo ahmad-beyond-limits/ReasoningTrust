@@ -1,0 +1,38 @@
+REASONING TRUST - ANALYSIS REPORT
+=================================
+
+
+======================================================================
+ 1. 2x2 WITHIN-SUBJECTS ANOVA (Outcome: Trust Rating)
+======================================================================
+                                Source         SS  ddof1  ddof2         MS          F    p_unc  p_GG_corr      ng2  eps
+                    answer_correctness 149.189063      1      9 149.189063 117.250512 0.000002   0.000002 0.817048  1.0
+                     reasoning_quality  17.889062      1      9  17.889062  13.415050 0.005214   0.005214 0.348747  1.0
+answer_correctness * reasoning_quality   1.314062      1      9   1.314062   3.249893 0.104934   0.104934 0.037847  1.0
+
+======================================================================
+ 2. EXPLAINABILITY PARADOX EFFECT SIZE
+======================================================================
+Mean Trust (Wrong Answer + CORRECT Reasoning): 2.575
+Mean Trust (Wrong Answer + WRONG Reasoning):   1.600
+Mean Difference (Paradox Effect):              0.975
+Cohen's d Effect Size:                         0.670
+
+======================================================================
+ 3. MULTIPLE REGRESSION (Comparative Influence)
+======================================================================
+Standardized Beta for Answer Correctness: 0.781 (p=0.0000)
+Standardized Beta for Reasoning Quality:  0.270 (p=0.0000)
+
+--- INTERPRETATION ---
+Answer correctness has a STRONGER predictive effect on trust than reasoning quality.
+
+======================================================================
+ 4. MEDIATION ANALYSIS (Reasoning -> Explanation -> Trust)
+======================================================================
+                   path     coef       se         pval     CI2.5   CI97.5 sig
+explanation_quality ~ X 1.262500 0.318307 1.104132e-04  0.633815 1.891185 Yes
+Y ~ explanation_quality 1.002663 0.049365 6.577156e-46  0.905163 1.100163 Yes
+                  Total 1.337500 0.378912 5.449292e-04  0.589115 2.085885 Yes
+                 Direct 0.078771 0.217776 7.180592e-01 -0.351379 0.508920  No
+               Indirect 1.258729 0.333124 0.000000e+00  0.635970 1.918495 Yes

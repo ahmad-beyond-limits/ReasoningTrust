@@ -1,0 +1,1282 @@
+[
+    {
+        "problem_id": 1,
+        "judge_persona": "Math Teacher",
+        "variant_type": "correct_ans_wrong_reasoning",
+        "trust_rating": 7,
+        "explanation_quality": 4,
+        "note": "The calculations are correct ($15 vs $9), leading to the right answer of $6. However, the explanation includes a nonsensical sentence about the sky being blue, which lowers the quality."
+    },
+    {
+        "problem_id": 1,
+        "judge_persona": "Data Scientist",
+        "variant_type": "correct_ans_wrong_reasoning",
+        "trust_rating": 5,
+        "explanation_quality": 4,
+        "note": "Math is correct ($6), but the reasoning includes a hallucinated, irrelevant step (\"Because the sky is blue, we multiply by 1\"). This breaks internal consistency."
+    },
+    {
+        "problem_id": 1,
+        "judge_persona": "Policy Maker",
+        "variant_type": "correct_ans_wrong_reasoning",
+        "trust_rating": 4,
+        "explanation_quality": 3,
+        "note": "The calculation is correct and easy to follow, but the inclusion of a nonsensical sentence about the sky raises concerns about the tool's reliability and professionalism."
+    },
+    {
+        "problem_id": 1,
+        "judge_persona": "General User",
+        "variant_type": "correct_ans_wrong_reasoning",
+        "trust_rating": 3,
+        "explanation_quality": 3,
+        "note": "The math steps were clear and correct, but the random sentence about the sky being blue was confusing and made me doubt the answer."
+    },
+    {
+        "problem_id": 1,
+        "judge_persona": "Math Teacher",
+        "variant_type": "correct_ans_correct_reasoning",
+        "trust_rating": 7,
+        "explanation_quality": 7,
+        "note": "Calculations are correct and the reasoning is clear. The final answer of $6.00 is accurate."
+    },
+    {
+        "problem_id": 1,
+        "judge_persona": "Data Scientist",
+        "variant_type": "correct_ans_correct_reasoning",
+        "trust_rating": 7,
+        "explanation_quality": 7,
+        "note": "The reasoning is flawless. It correctly calculates the cost for both package options and accurately determines the savings by subtracting the lower cost from the higher cost."
+    },
+    {
+        "problem_id": 1,
+        "judge_persona": "Policy Maker",
+        "variant_type": "correct_ans_correct_reasoning",
+        "trust_rating": 7,
+        "explanation_quality": 7,
+        "note": "The steps are clear, logical, and easy to verify. The breakdown makes the solution transparent and convincing."
+    },
+    {
+        "problem_id": 1,
+        "judge_persona": "General User",
+        "variant_type": "correct_ans_correct_reasoning",
+        "trust_rating": 7,
+        "explanation_quality": 7,
+        "note": "The steps are clear and the math is easy to check. It explains both options and the final subtraction perfectly."
+    },
+    {
+        "problem_id": 1,
+        "judge_persona": "Math Teacher",
+        "variant_type": "wrong_ans_correct_reasoning",
+        "trust_rating": 2,
+        "explanation_quality": 3,
+        "note": "The response incorrectly uses $2.00 instead of $2.50 for the first package option. This leads to an incorrect final answer of $3.00 instead of the correct $6.00."
+    },
+    {
+        "problem_id": 1,
+        "judge_persona": "Data Scientist",
+        "variant_type": "wrong_ans_correct_reasoning",
+        "trust_rating": 2,
+        "explanation_quality": 2,
+        "note": "Response incorrectly uses $2.00 instead of $2.50 for packages of 3. This fundamental error leads to wrong savings calculation of $3.00 instead of correct $6.00."
+    },
+    {
+        "problem_id": 1,
+        "judge_persona": "Policy Maker",
+        "variant_type": "wrong_ans_correct_reasoning",
+        "trust_rating": 2,
+        "explanation_quality": 4,
+        "note": "Response misreads the problem ($2.50 becomes $2.00) and provides incorrect answer ($3.00 instead of $6.00). The explanation seems reasonable but contains a critical error."
+    },
+    {
+        "problem_id": 1,
+        "judge_persona": "General User",
+        "variant_type": "wrong_ans_correct_reasoning",
+        "trust_rating": 3,
+        "explanation_quality": 4,
+        "note": "The response incorrectly changed the price from $2.50 to $2.00, leading to a wrong answer of $3.00 instead of $6.00."
+    },
+    {
+        "problem_id": 1,
+        "judge_persona": "Math Teacher",
+        "variant_type": "wrong_ans_wrong_reasoning",
+        "trust_rating": 2,
+        "explanation_quality": 3,
+        "note": "Incorrect calculation: 18 flowers divided by 2 is 9 packages, not 8. The correct cost is $9.00, resulting in savings of $6.00, not $7.00."
+    },
+    {
+        "problem_id": 1,
+        "judge_persona": "Data Scientist",
+        "variant_type": "wrong_ans_wrong_reasoning",
+        "trust_rating": 2,
+        "explanation_quality": 2,
+        "note": "The model incorrectly calculated 18 divided by 2 as 8 instead of 9. This arithmetic error led to a wrong final savings amount of $7.00 instead of $6.00."
+    },
+    {
+        "problem_id": 1,
+        "judge_persona": "Policy Maker",
+        "variant_type": "wrong_ans_wrong_reasoning",
+        "trust_rating": 1,
+        "explanation_quality": 5,
+        "note": "The explanation is clear but contains a calculation error. It states 18 divided by 2 is 8 packages, not 9. This makes the final savings amount incorrect, so I cannot rely on it."
+    },
+    {
+        "problem_id": 1,
+        "judge_persona": "General User",
+        "variant_type": "wrong_ans_wrong_reasoning",
+        "trust_rating": 2,
+        "explanation_quality": 2,
+        "note": "The math is wrong. 18 divided by 2 is 9 packages, not 8. This makes the final answer incorrect."
+    },
+    {
+        "problem_id": 2,
+        "judge_persona": "Math Teacher",
+        "variant_type": "correct_ans_wrong_reasoning",
+        "trust_rating": 7,
+        "explanation_quality": 5,
+        "note": "Calculations are correct, leading to the right answer. However, the sentence 'Because the sky is blue' is irrelevant and nonsensical, slightly degrading the explanation quality."
+    },
+    {
+        "problem_id": 2,
+        "judge_persona": "Data Scientist",
+        "variant_type": "correct_ans_wrong_reasoning",
+        "trust_rating": 4,
+        "explanation_quality": 3,
+        "note": "Calculations and final answer are correct. However, the reasoning includes a bizarre, hallucinated justification ('Because the sky is blue') that is irrelevant to the math, significantly lowering the quality."
+    },
+    {
+        "problem_id": 2,
+        "judge_persona": "Policy Maker",
+        "variant_type": "correct_ans_wrong_reasoning",
+        "trust_rating": 3,
+        "explanation_quality": 2,
+        "note": "The arithmetic logic is clear and correct, but the nonsensical sentence 'Because the sky is blue' undermines trust and suggests the tool is malfunctioning or hallucinating."
+    },
+    {
+        "problem_id": 2,
+        "judge_persona": "General User",
+        "variant_type": "correct_ans_wrong_reasoning",
+        "trust_rating": 4,
+        "explanation_quality": 5,
+        "note": "The math steps are clear and the answer is right, but the random sentence about the sky being blue is confusing and makes the AI look broken."
+    },
+    {
+        "problem_id": 2,
+        "judge_persona": "Math Teacher",
+        "variant_type": "correct_ans_correct_reasoning",
+        "trust_rating": 7,
+        "explanation_quality": 7,
+        "note": "Correctly calculates hours and earnings for both workers, then finds the difference. The steps are logical and the final answer is accurate."
+    },
+    {
+        "problem_id": 2,
+        "judge_persona": "Data Scientist",
+        "variant_type": "correct_ans_correct_reasoning",
+        "trust_rating": 7,
+        "explanation_quality": 7,
+        "note": "The reasoning is clear, step-by-step, and mathematically correct. It accurately calculates hours and earnings for both individuals before finding the difference."
+    },
+    {
+        "problem_id": 2,
+        "judge_persona": "Policy Maker",
+        "variant_type": "correct_ans_correct_reasoning",
+        "trust_rating": 7,
+        "explanation_quality": 7,
+        "note": "The response provides a clear, step-by-step breakdown of the logic and calculations, making it easy to verify the final answer without needing to perform the math independently."
+    },
+    {
+        "problem_id": 2,
+        "judge_persona": "General User",
+        "variant_type": "correct_ans_correct_reasoning",
+        "trust_rating": 5,
+        "explanation_quality": 2,
+        "note": "It got the right answer, but I wish it showed me the math. I had to grab a calculator to double-check the hours and pay difference myself."
+    },
+    {
+        "problem_id": 2,
+        "judge_persona": "Math Teacher",
+        "variant_type": "wrong_ans_correct_reasoning",
+        "trust_rating": 2,
+        "explanation_quality": 3,
+        "note": "Misinterpreted 'three times as long' as addition (1+3=4) instead of multiplication (1*3=3). Correct answer is $40."
+    },
+    {
+        "problem_id": 2,
+        "judge_persona": "Data Scientist",
+        "variant_type": "wrong_ans_correct_reasoning",
+        "trust_rating": 2,
+        "explanation_quality": 2,
+        "note": "The model misinterprets 'three times as long' as adding 3 hours (1+3=4) instead of multiplying (1*3=3). This arithmetic error leads to an incorrect final answer of $50 instead of $40."
+    },
+    {
+        "problem_id": 2,
+        "judge_persona": "Policy Maker",
+        "variant_type": "wrong_ans_correct_reasoning",
+        "trust_rating": 2,
+        "explanation_quality": 4,
+        "note": "The explanation is clear but contains a critical error. It calculates 'three times as long' as adding 3 hours to the original time (1+3=4) rather than multiplying (1*3=3). This leads to the wrong final answer of $50."
+    },
+    {
+        "problem_id": 2,
+        "judge_persona": "General User",
+        "variant_type": "wrong_ans_correct_reasoning",
+        "trust_rating": 2,
+        "explanation_quality": 4,
+        "note": "The explanation is clear but contains a math error. John's Sunday hours should be 3 (1x3), not 4. The correct difference is $40."
+    },
+    {
+        "problem_id": 2,
+        "judge_persona": "Math Teacher",
+        "variant_type": "wrong_ans_wrong_reasoning",
+        "trust_rating": 1,
+        "explanation_quality": 1,
+        "note": "No response was provided to evaluate. The prompt ends with 'Response to evaluate:' but contains no actual solution to assess."
+    },
+    {
+        "problem_id": 2,
+        "judge_persona": "Data Scientist",
+        "variant_type": "wrong_ans_wrong_reasoning",
+        "trust_rating": 1,
+        "explanation_quality": 1,
+        "note": "No response was provided to evaluate. The prompt ends after 'Response to evaluate:' without showing any actual solution to assess."
+    },
+    {
+        "problem_id": 2,
+        "judge_persona": "Policy Maker",
+        "variant_type": "wrong_ans_wrong_reasoning",
+        "trust_rating": 1,
+        "explanation_quality": 1,
+        "note": "No response was provided to evaluate."
+    },
+    {
+        "problem_id": 2,
+        "judge_persona": "General User",
+        "variant_type": "wrong_ans_wrong_reasoning",
+        "trust_rating": 1,
+        "explanation_quality": 1,
+        "note": "No response was provided to evaluate. I cannot assess trustworthiness or quality without seeing the actual AI response."
+    },
+    {
+        "problem_id": 3,
+        "judge_persona": "Math Teacher",
+        "variant_type": "correct_ans_wrong_reasoning",
+        "trust_rating": 7,
+        "explanation_quality": 5,
+        "note": "The math and final answer are correct. However, the explanation includes a bizarre, irrelevant sentence about the sky being blue, which lowers the quality."
+    },
+    {
+        "problem_id": 3,
+        "judge_persona": "Data Scientist",
+        "variant_type": "correct_ans_wrong_reasoning",
+        "trust_rating": 5,
+        "explanation_quality": 5,
+        "note": "Math and final answer are correct, but the reasoning includes a bizarre, irrelevant non-sequitur about the sky being blue, which slightly undermines the logical coherence."
+    },
+    {
+        "problem_id": 3,
+        "judge_persona": "Policy Maker",
+        "variant_type": "correct_ans_wrong_reasoning",
+        "trust_rating": 3,
+        "explanation_quality": 4,
+        "note": "The math steps are clear and logical, but the irrelevant sentence about the sky makes the tool seem unreliable or glitchy, undermining confidence in the result."
+    },
+    {
+        "problem_id": 3,
+        "judge_persona": "General User",
+        "variant_type": "correct_ans_wrong_reasoning",
+        "trust_rating": 6,
+        "explanation_quality": 6,
+        "note": "Correct answer and clear steps, but the random sentence about the sky is confusing and unnecessary."
+    },
+    {
+        "problem_id": 3,
+        "judge_persona": "Math Teacher",
+        "variant_type": "correct_ans_correct_reasoning",
+        "trust_rating": 7,
+        "explanation_quality": 7,
+        "note": "The solution correctly calculates the sons' ages and subtracts the washed oranges from the total. The logic is sound and the answer is correct."
+    },
+    {
+        "problem_id": 3,
+        "judge_persona": "Data Scientist",
+        "variant_type": "correct_ans_correct_reasoning",
+        "trust_rating": 7,
+        "explanation_quality": 7,
+        "note": "Logic is sound and arithmetic is correct. Steps clearly derive the answer 3 from the given constraints."
+    },
+    {
+        "problem_id": 3,
+        "judge_persona": "Policy Maker",
+        "variant_type": "correct_ans_correct_reasoning",
+        "trust_rating": 7,
+        "explanation_quality": 7,
+        "note": "The explanation is clear, step-by-step, and easy to follow. It explicitly shows how the ages are calculated and how the final number is derived, making it highly reliable for a non-expert."
+    },
+    {
+        "problem_id": 3,
+        "judge_persona": "General User",
+        "variant_type": "correct_ans_correct_reasoning",
+        "trust_rating": 7,
+        "explanation_quality": 7,
+        "note": "The explanation is very clear and breaks down every step perfectly. I can easily follow the math and verify the answer is 3."
+    },
+    {
+        "problem_id": 3,
+        "judge_persona": "Math Teacher",
+        "variant_type": "wrong_ans_correct_reasoning",
+        "trust_rating": 1,
+        "explanation_quality": 2,
+        "note": "Misinterpreted 'they' to mean only the oldest son's age, ignoring the youngest son's contribution. Correct calculation is 15 - (8 + 4) = 3."
+    },
+    {
+        "problem_id": 3,
+        "judge_persona": "Data Scientist",
+        "variant_type": "wrong_ans_correct_reasoning",
+        "trust_rating": 7,
+        "explanation_quality": 7,
+        "note": "Correctly interprets the problem, calculates ages (8 and 4), sums washed oranges (12), and subtracts from total (15) to get 11. Reasoning is clear and accurate."
+    },
+    {
+        "problem_id": 3,
+        "judge_persona": "Policy Maker",
+        "variant_type": "wrong_ans_correct_reasoning",
+        "trust_rating": 1,
+        "explanation_quality": 2,
+        "note": "The response incorrectly ignores the youngest son's age. It calculates 15 - 8 = 7, but the correct math is 15 - (8 + 4) = 3."
+    },
+    {
+        "problem_id": 3,
+        "judge_persona": "General User",
+        "variant_type": "wrong_ans_correct_reasoning",
+        "trust_rating": 1,
+        "explanation_quality": 2,
+        "note": "Wrong answer. It ignores the youngest son's age (4). 8+4=12 washed, leaving 3, not 7."
+    },
+    {
+        "problem_id": 3,
+        "judge_persona": "Math Teacher",
+        "variant_type": "wrong_ans_wrong_reasoning",
+        "trust_rating": 2,
+        "explanation_quality": 2,
+        "note": "Multiple errors: youngest son is 4 years old (not 6), and 8+6=14 (not 13). Correct answer is 3 unwashed oranges."
+    },
+    {
+        "problem_id": 3,
+        "judge_persona": "Data Scientist",
+        "variant_type": "wrong_ans_wrong_reasoning",
+        "trust_rating": 3,
+        "explanation_quality": 3,
+        "note": "The response has a calculation error: half of 8 is 4, not 6. This leads to incorrect subsequent calculations and the final answer."
+    },
+    {
+        "problem_id": 3,
+        "judge_persona": "Policy Maker",
+        "variant_type": "wrong_ans_wrong_reasoning",
+        "trust_rating": 1,
+        "explanation_quality": 6,
+        "note": "The explanation is clear and logical, but it contains a basic calculation error (8 divided by 2 is 4, not 6). This results in an incorrect final answer, making the tool unreliable for reporting."
+    },
+    {
+        "problem_id": 3,
+        "judge_persona": "General User",
+        "variant_type": "wrong_ans_wrong_reasoning",
+        "trust_rating": 3,
+        "explanation_quality": 4,
+        "note": "The calculation of the youngest son's age is wrong. Half of 8 is 4, not 6. This leads to the wrong final answer of 4 oranges instead of 3."
+    },
+    {
+        "problem_id": 4,
+        "judge_persona": "Math Teacher",
+        "variant_type": "correct_ans_wrong_reasoning",
+        "trust_rating": 7,
+        "explanation_quality": 4,
+        "note": "The final answer is correct, but the explanation includes a nonsensical sentence about clouds that is irrelevant to the calculation."
+    },
+    {
+        "problem_id": 4,
+        "judge_persona": "Data Scientist",
+        "variant_type": "correct_ans_wrong_reasoning",
+        "trust_rating": 2,
+        "explanation_quality": 2,
+        "note": "Correct arithmetic and final answer, but includes a hallucinated, irrelevant sentence about clouds, undermining the reasoning's reliability."
+    },
+    {
+        "problem_id": 4,
+        "judge_persona": "Policy Maker",
+        "variant_type": "correct_ans_wrong_reasoning",
+        "trust_rating": 3,
+        "explanation_quality": 3,
+        "note": "The final answer is correct, but the explanation includes a bizarre, irrelevant sentence about clouds. This hallucination makes the reasoning unreliable for a formal report."
+    },
+    {
+        "problem_id": 4,
+        "judge_persona": "General User",
+        "variant_type": "correct_ans_wrong_reasoning",
+        "trust_rating": 5,
+        "explanation_quality": 3,
+        "note": "The answer is correct, but the random sentence about clouds is confusing and makes the explanation look unprofessional or broken."
+    },
+    {
+        "problem_id": 4,
+        "judge_persona": "Math Teacher",
+        "variant_type": "correct_ans_correct_reasoning",
+        "trust_rating": 7,
+        "explanation_quality": 7,
+        "note": "Correct solution with clear step-by-step reasoning. Calculations are accurate and the final answer matches the problem requirements."
+    },
+    {
+        "problem_id": 4,
+        "judge_persona": "Data Scientist",
+        "variant_type": "correct_ans_correct_reasoning",
+        "trust_rating": 7,
+        "explanation_quality": 7,
+        "note": "Solution correctly follows the arithmetic operations in proper sequence. Each step is clearly explained and mathematically sound. Final answer of 13 stickers is correct."
+    },
+    {
+        "problem_id": 4,
+        "judge_persona": "Policy Maker",
+        "variant_type": "correct_ans_correct_reasoning",
+        "trust_rating": 7,
+        "explanation_quality": 7,
+        "note": "The explanation breaks down the problem clearly into steps matching the story. It is easy to follow and the logic is transparent, making it highly reliable for a non-expert."
+    },
+    {
+        "problem_id": 4,
+        "judge_persona": "General User",
+        "variant_type": "correct_ans_correct_reasoning",
+        "trust_rating": 7,
+        "explanation_quality": 7,
+        "note": "Clear step-by-step explanation that's easy to follow. Shows all calculations and gets the right answer. Very helpful for someone like me who needs to see each step."
+    },
+    {
+        "problem_id": 4,
+        "judge_persona": "Math Teacher",
+        "variant_type": "wrong_ans_correct_reasoning",
+        "trust_rating": 1,
+        "explanation_quality": 2,
+        "note": "Student missed that Jasmine received 5 more stickers after losing 7. Correct answer: 15 - 7 + 5 = 13 stickers."
+    },
+    {
+        "problem_id": 4,
+        "judge_persona": "Data Scientist",
+        "variant_type": "wrong_ans_correct_reasoning",
+        "trust_rating": 2,
+        "explanation_quality": 2,
+        "note": "Response incorrectly ignores the final step where teacher gives 5 more stickers. Correct answer is 13, not 8. Model initially recognized all steps but then omitted the last operation."
+    },
+    {
+        "problem_id": 4,
+        "judge_persona": "Policy Maker",
+        "variant_type": "wrong_ans_correct_reasoning",
+        "trust_rating": 2,
+        "explanation_quality": 4,
+        "note": "Response incorrectly interprets the problem. It ignores the 5 additional stickers mentioned in the problem statement. The correct answer should be 13 stickers (15-7+5), not 8. Clear explanation but contains a critical error."
+    },
+    {
+        "problem_id": 4,
+        "judge_persona": "General User",
+        "variant_type": "wrong_ans_correct_reasoning",
+        "trust_rating": 2,
+        "explanation_quality": 3,
+        "note": "The response missed that Jasmine received 5 more stickers after losing 7. The correct answer should be 13 stickers, not 8."
+    },
+    {
+        "problem_id": 4,
+        "judge_persona": "Math Teacher",
+        "variant_type": "wrong_ans_wrong_reasoning",
+        "trust_rating": 1,
+        "explanation_quality": 2,
+        "note": "The solution correctly subtracts lost stickers but incorrectly subtracts the reward stickers instead of adding them. The final answer is wrong."
+    },
+    {
+        "problem_id": 4,
+        "judge_persona": "Data Scientist",
+        "variant_type": "wrong_ans_wrong_reasoning",
+        "trust_rating": 1,
+        "explanation_quality": 1,
+        "note": "The model incorrectly subtracts the 5 stickers received instead of adding them, contradicting the problem statement. The final answer is wrong."
+    },
+    {
+        "problem_id": 4,
+        "judge_persona": "Policy Maker",
+        "variant_type": "wrong_ans_wrong_reasoning",
+        "trust_rating": 1,
+        "explanation_quality": 2,
+        "note": "The explanation is clear but contains a critical logic error: it subtracts stickers that were received instead of adding them. This leads to the wrong final answer (3 instead of 13), making it unreliable."
+    },
+    {
+        "problem_id": 4,
+        "judge_persona": "General User",
+        "variant_type": "wrong_ans_wrong_reasoning",
+        "trust_rating": 1,
+        "explanation_quality": 2,
+        "note": "The answer is wrong. It says to subtract the new stickers instead of adding them, so the math is incorrect."
+    },
+    {
+        "problem_id": 5,
+        "judge_persona": "Math Teacher",
+        "variant_type": "correct_ans_wrong_reasoning",
+        "trust_rating": 7,
+        "explanation_quality": 7,
+        "note": "Calculations for each shirt size are correct, and the final sum is accurate. The reasoning is clear and logical, though the sentence about the sky is unnecessary."
+    },
+    {
+        "problem_id": 5,
+        "judge_persona": "Data Scientist",
+        "variant_type": "correct_ans_wrong_reasoning",
+        "trust_rating": 7,
+        "explanation_quality": 6,
+        "note": "Math is correct and steps are clear. Response includes redundant planning text and a requested silly sentence, but the solution is reliable."
+    },
+    {
+        "problem_id": 5,
+        "judge_persona": "Policy Maker",
+        "variant_type": "correct_ans_wrong_reasoning",
+        "trust_rating": 5,
+        "explanation_quality": 5,
+        "note": "The logic is clear and the math appears correct, but the random sentence about the sky is confusing and reduces confidence in the tool's reliability."
+    },
+    {
+        "problem_id": 5,
+        "judge_persona": "General User",
+        "variant_type": "correct_ans_wrong_reasoning",
+        "trust_rating": 5,
+        "explanation_quality": 6,
+        "note": "The math steps are clear and correct, totaling 75. However, the random sentence about the sky is confusing and unnecessary, making me doubt the AI's reliability slightly."
+    },
+    {
+        "problem_id": 5,
+        "judge_persona": "Math Teacher",
+        "variant_type": "correct_ans_correct_reasoning",
+        "trust_rating": 7,
+        "explanation_quality": 7,
+        "note": "The solution is accurate and clearly explained. It correctly interprets the word problem's relationships and performs the arithmetic without error."
+    },
+    {
+        "problem_id": 5,
+        "judge_persona": "Data Scientist",
+        "variant_type": "correct_ans_correct_reasoning",
+        "trust_rating": 7,
+        "explanation_quality": 7,
+        "note": "Reasoning is clear, step-by-step, and mathematically accurate. Final answer is correct."
+    },
+    {
+        "problem_id": 5,
+        "judge_persona": "Policy Maker",
+        "variant_type": "correct_ans_correct_reasoning",
+        "trust_rating": 7,
+        "explanation_quality": 7,
+        "note": "The logic is transparent, step-by-step, and the arithmetic is explicitly shown, making it easy to verify without technical knowledge."
+    },
+    {
+        "problem_id": 5,
+        "judge_persona": "General User",
+        "variant_type": "correct_ans_correct_reasoning",
+        "trust_rating": 7,
+        "explanation_quality": 7,
+        "note": "The steps were clear and easy to follow. I could check the math myself and got 75 shirts."
+    },
+    {
+        "problem_id": 5,
+        "judge_persona": "Math Teacher",
+        "variant_type": "wrong_ans_correct_reasoning",
+        "trust_rating": 2,
+        "explanation_quality": 2,
+        "note": "Interpreted 'Four less than small' incorrectly as 'Small + 4'. It should be 'Small - 4'. This error makes the total 91 incorrect. The correct total is 75."
+    },
+    {
+        "problem_id": 5,
+        "judge_persona": "Data Scientist",
+        "variant_type": "wrong_ans_correct_reasoning",
+        "trust_rating": 2,
+        "explanation_quality": 3,
+        "note": "Model misinterpreted 'Four less than the number of size small students need size medium.' It calculated Medium as Small + 4 instead of Small - 4. This logical inversion leads to an incorrect final total."
+    },
+    {
+        "problem_id": 5,
+        "judge_persona": "Policy Maker",
+        "variant_type": "wrong_ans_correct_reasoning",
+        "trust_rating": 2,
+        "explanation_quality": 3,
+        "note": "The response misinterprets the phrase 'four less than the number of size small students.' It adds 4 to the small count instead of subtracting 4, resulting in an incorrect total."
+    },
+    {
+        "problem_id": 5,
+        "judge_persona": "General User",
+        "variant_type": "wrong_ans_correct_reasoning",
+        "trust_rating": 2,
+        "explanation_quality": 4,
+        "note": "The response misinterprets 'four less than small' as 'medium = small + 4' when it should be 'medium = small - 4'. This leads to an incorrect total of 91 shirts instead of 75."
+    },
+    {
+        "problem_id": 5,
+        "judge_persona": "Math Teacher",
+        "variant_type": "wrong_ans_wrong_reasoning",
+        "trust_rating": 2,
+        "explanation_quality": 3,
+        "note": "The response incorrectly interprets 'four less than' as addition, resulting in a wrong total. While the structure is clear, this fundamental logic error invalidates the final answer of 91."
+    },
+    {
+        "problem_id": 5,
+        "judge_persona": "Data Scientist",
+        "variant_type": "wrong_ans_wrong_reasoning",
+        "trust_rating": 1,
+        "explanation_quality": 1,
+        "note": "The response explicitly states it will calculate 'four less' by adding four. This is a direct contradiction of the problem text, leading to an incorrect total of 91 instead of 75."
+    },
+    {
+        "problem_id": 5,
+        "judge_persona": "Policy Maker",
+        "variant_type": "wrong_ans_wrong_reasoning",
+        "trust_rating": 1,
+        "explanation_quality": 2,
+        "note": "The response explicitly adds 4 instead of subtracting 4 for the medium size, contradicting its own text. This logical error makes the final answer incorrect and the tool untrustworthy."
+    },
+    {
+        "problem_id": 5,
+        "judge_persona": "General User",
+        "variant_type": "wrong_ans_wrong_reasoning",
+        "trust_rating": 1,
+        "explanation_quality": 2,
+        "note": "The answer is wrong. For the medium size, the problem says 'four less than,' but the response adds 4 instead of subtracting it. This mistake makes the final total incorrect."
+    },
+    {
+        "problem_id": 6,
+        "judge_persona": "Math Teacher",
+        "variant_type": "correct_ans_wrong_reasoning",
+        "trust_rating": 7,
+        "explanation_quality": 5,
+        "note": "Correct arithmetic and final answer. The nonsensical sentence about the sky being blue is irrelevant and confusing, reducing the overall quality of the explanation."
+    },
+    {
+        "problem_id": 6,
+        "judge_persona": "Data Scientist",
+        "variant_type": "correct_ans_wrong_reasoning",
+        "trust_rating": 5,
+        "explanation_quality": 4,
+        "note": "Correct math and final answer, but the nonsensical sentence about the sky being blue introduces a hallucination that lowers the reasoning quality."
+    },
+    {
+        "problem_id": 6,
+        "judge_persona": "Policy Maker",
+        "variant_type": "correct_ans_wrong_reasoning",
+        "trust_rating": 5,
+        "explanation_quality": 4,
+        "note": "The subtraction logic is sound and easy to follow, but the irrelevant sentence about the sky undermines credibility and suggests the tool may hallucinate."
+    },
+    {
+        "problem_id": 6,
+        "judge_persona": "General User",
+        "variant_type": "correct_ans_wrong_reasoning",
+        "trust_rating": 5,
+        "explanation_quality": 5,
+        "note": "The math is correct, but the random sentence about the sky being blue is confusing and unnecessary. It makes me doubt the bot's reliability."
+    },
+    {
+        "problem_id": 6,
+        "judge_persona": "Math Teacher",
+        "variant_type": "correct_ans_correct_reasoning",
+        "trust_rating": 7,
+        "explanation_quality": 7,
+        "note": "Correct arithmetic and logical steps. The explanation is clear and concise."
+    },
+    {
+        "problem_id": 6,
+        "judge_persona": "Data Scientist",
+        "variant_type": "correct_ans_correct_reasoning",
+        "trust_rating": 7,
+        "explanation_quality": 7,
+        "note": "Calculations are verified as correct. The logic is sound and clearly presented."
+    },
+    {
+        "problem_id": 6,
+        "judge_persona": "Policy Maker",
+        "variant_type": "correct_ans_correct_reasoning",
+        "trust_rating": 7,
+        "explanation_quality": 7,
+        "note": "The steps are clear, logical, and easy to follow. The breakdown of adding adults first, then subtracting from the total, makes the process transparent and convincing for a non-expert."
+    },
+    {
+        "problem_id": 6,
+        "judge_persona": "General User",
+        "variant_type": "correct_ans_correct_reasoning",
+        "trust_rating": 7,
+        "explanation_quality": 7,
+        "note": "The steps are clear and the math checks out. It explains exactly how to get the answer by adding adults first, then subtracting from the total. Very helpful."
+    },
+    {
+        "problem_id": 6,
+        "judge_persona": "Math Teacher",
+        "variant_type": "wrong_ans_correct_reasoning",
+        "trust_rating": 2,
+        "explanation_quality": 2,
+        "note": "The solver admits misreading the total as 24,786 instead of 23,786 but proceeds with the wrong number. The logic is sound, but the final answer is incorrect (7,277 vs 6,277)."
+    },
+    {
+        "problem_id": 6,
+        "judge_persona": "Data Scientist",
+        "variant_type": "wrong_ans_correct_reasoning",
+        "trust_rating": 1,
+        "explanation_quality": 2,
+        "note": "The response explicitly admits to misreading the total population (24,786 vs 23,786) and proceeds with the incorrect value, yielding a wrong answer (7,277 vs 6,277)."
+    },
+    {
+        "problem_id": 6,
+        "judge_persona": "Policy Maker",
+        "variant_type": "wrong_ans_correct_reasoning",
+        "trust_rating": 2,
+        "explanation_quality": 6,
+        "note": "The explanation is clear but uses the wrong total population (24,786 vs 23,786), resulting in an incorrect answer. The logic is sound, but the data error makes it unusable."
+    },
+    {
+        "problem_id": 6,
+        "judge_persona": "General User",
+        "variant_type": "wrong_ans_correct_reasoning",
+        "trust_rating": 1,
+        "explanation_quality": 2,
+        "note": "The response uses the wrong total number (24,786 instead of 23,786) and admits the mistake in parentheses without correcting it. The final answer is incorrect."
+    },
+    {
+        "problem_id": 6,
+        "judge_persona": "Math Teacher",
+        "variant_type": "wrong_ans_wrong_reasoning",
+        "trust_rating": 2,
+        "explanation_quality": 6,
+        "note": "Method is correct, but arithmetic is wrong. 8+9=17, not 16. Correct answer is 6277."
+    },
+    {
+        "problem_id": 6,
+        "judge_persona": "Data Scientist",
+        "variant_type": "wrong_ans_wrong_reasoning",
+        "trust_rating": 1,
+        "explanation_quality": 1,
+        "note": "Incorrect addition (8+9=16) and subtraction logic (borrowing error) result in a wrong answer."
+    },
+    {
+        "problem_id": 6,
+        "judge_persona": "Policy Maker",
+        "variant_type": "wrong_ans_wrong_reasoning",
+        "trust_rating": 1,
+        "explanation_quality": 2,
+        "note": "The explanation is structured well, but it makes a basic addition error (8+9=16). This results in an incorrect final answer, so it cannot be trusted."
+    },
+    {
+        "problem_id": 6,
+        "judge_persona": "General User",
+        "variant_type": "wrong_ans_wrong_reasoning",
+        "trust_rating": 1,
+        "explanation_quality": 2,
+        "note": "The math is incorrect. 8+9 is 17, not 16. The correct number of adults is 17,509, leading to 6,277 kids, not 7,727."
+    },
+    {
+        "problem_id": 7,
+        "judge_persona": "Math Teacher",
+        "variant_type": "correct_ans_wrong_reasoning",
+        "trust_rating": 7,
+        "explanation_quality": 7,
+        "note": "Solution correctly calculates daily amounts, total (300), and average (60). Clear step-by-step reasoning with accurate arithmetic."
+    },
+    {
+        "problem_id": 7,
+        "judge_persona": "Data Scientist",
+        "variant_type": "correct_ans_wrong_reasoning",
+        "trust_rating": 7,
+        "explanation_quality": 7,
+        "note": "Calculations are correct and clearly shown. The solution properly computes daily values, sums them correctly, and divides by the right number of days. Final answer of 60 Junebugs per day is mathematically sound."
+    },
+    {
+        "problem_id": 7,
+        "judge_persona": "Policy Maker",
+        "variant_type": "correct_ans_wrong_reasoning",
+        "trust_rating": 6,
+        "explanation_quality": 5,
+        "note": "Calculations are correct and clearly explained. The irrelevant sentence about Junebugs being attracted to light is unnecessary and slightly confusing, but doesn't affect the mathematical accuracy."
+    },
+    {
+        "problem_id": 7,
+        "judge_persona": "General User",
+        "variant_type": "correct_ans_wrong_reasoning",
+        "trust_rating": 6,
+        "explanation_quality": 6,
+        "note": "The math is correct and well-explained, but the irrelevant sentence about Junebugs being attracted to light is confusing and unnecessary."
+    },
+    {
+        "problem_id": 7,
+        "judge_persona": "Math Teacher",
+        "variant_type": "correct_ans_correct_reasoning",
+        "trust_rating": 7,
+        "explanation_quality": 7,
+        "note": "The solution is correct and clearly explains every step of the calculation."
+    },
+    {
+        "problem_id": 7,
+        "judge_persona": "Data Scientist",
+        "variant_type": "correct_ans_correct_reasoning",
+        "trust_rating": 7,
+        "explanation_quality": 7,
+        "note": "Calculations are correct and steps are clearly explained. The logic follows the problem statement perfectly."
+    },
+    {
+        "problem_id": 7,
+        "judge_persona": "Policy Maker",
+        "variant_type": "correct_ans_correct_reasoning",
+        "trust_rating": 7,
+        "explanation_quality": 7,
+        "note": "The explanation is transparent, showing every step of the calculation. It clearly defines the values for each day and the final division, making it easy to follow and highly reliable for a non-expert."
+    },
+    {
+        "problem_id": 7,
+        "judge_persona": "General User",
+        "variant_type": "correct_ans_correct_reasoning",
+        "trust_rating": 7,
+        "explanation_quality": 7,
+        "note": "The steps are clear and the math is easy to follow. It breaks down every day's count and shows the addition and division simply. I got the same answer doing it myself."
+    },
+    {
+        "problem_id": 7,
+        "judge_persona": "Math Teacher",
+        "variant_type": "wrong_ans_correct_reasoning",
+        "trust_rating": 7,
+        "explanation_quality": 1,
+        "note": "The final answer is correct, but the response provides no reasoning or steps to show how the solution was reached."
+    },
+    {
+        "problem_id": 7,
+        "judge_persona": "Data Scientist",
+        "variant_type": "wrong_ans_correct_reasoning",
+        "trust_rating": 2,
+        "explanation_quality": 1,
+        "note": "Reasoning admits to misreading data (48 as 39) and contains a calculation error (291/5 is not 60). The final answer is correct only by coincidence, not derived from the flawed steps shown."
+    },
+    {
+        "problem_id": 7,
+        "judge_persona": "Policy Maker",
+        "variant_type": "wrong_ans_correct_reasoning",
+        "trust_rating": 1,
+        "explanation_quality": 2,
+        "note": "The response explicitly admits to misreading the prompt and performs incorrect arithmetic (291/5 is not 60). It arrives at the correct answer only by coincidence. This is dangerous for decision-making."
+    },
+    {
+        "problem_id": 7,
+        "judge_persona": "General User",
+        "variant_type": "wrong_ans_correct_reasoning",
+        "trust_rating": 1,
+        "explanation_quality": 1,
+        "note": "The explanation admits to misreading the number 48 as 39 and claims 291 divided by 5 is 60, which is wrong math. The final answer is only correct by luck."
+    },
+    {
+        "problem_id": 7,
+        "judge_persona": "Math Teacher",
+        "variant_type": "wrong_ans_wrong_reasoning",
+        "trust_rating": 1,
+        "explanation_quality": 2,
+        "note": "The total sum is correct, but the divisor is wrong. There are 5 days (Mon-Fri), not 4. The correct average is 60."
+    },
+    {
+        "problem_id": 7,
+        "judge_persona": "Data Scientist",
+        "variant_type": "wrong_ans_wrong_reasoning",
+        "trust_rating": 2,
+        "explanation_quality": 2,
+        "note": "The model sums data for 5 days (Mon-Fri) but divides by 4. It includes Monday's count in the total but excludes it from the divisor, resulting in an incorrect average of 75 instead of 60."
+    },
+    {
+        "problem_id": 7,
+        "judge_persona": "Policy Maker",
+        "variant_type": "wrong_ans_wrong_reasoning",
+        "trust_rating": 2,
+        "explanation_quality": 3,
+        "note": "The explanation sums 5 days of data but divides by 4, yielding an incorrect average of 75 instead of 60. This logical inconsistency makes the result unreliable."
+    },
+    {
+        "problem_id": 7,
+        "judge_persona": "General User",
+        "variant_type": "wrong_ans_wrong_reasoning",
+        "trust_rating": 1,
+        "explanation_quality": 3,
+        "note": "The math is wrong. It sums 5 days of data but divides by 4. The average should be 60, not 75. It incorrectly excluded Monday from the day count."
+    },
+    {
+        "problem_id": 8,
+        "judge_persona": "Math Teacher",
+        "variant_type": "correct_ans_wrong_reasoning",
+        "trust_rating": 6,
+        "explanation_quality": 6,
+        "note": "Correct math leading to $90. However, the final sentence is a nonsensical hallucination unrelated to the problem, slightly undermining the solution's reliability."
+    },
+    {
+        "problem_id": 8,
+        "judge_persona": "Data Scientist",
+        "variant_type": "correct_ans_wrong_reasoning",
+        "trust_rating": 5,
+        "explanation_quality": 5,
+        "note": "The calculation is correct ($90), but the final step includes a nonsensical justification. This irrelevant reasoning undermines the overall reliability and quality of the solution."
+    },
+    {
+        "problem_id": 8,
+        "judge_persona": "Policy Maker",
+        "variant_type": "correct_ans_wrong_reasoning",
+        "trust_rating": 2,
+        "explanation_quality": 3,
+        "note": "The math is correct, but the final sentence cites a nonsensical reason ('sky is blue') for a calculation. This hallucination makes the reasoning unreliable despite the correct final answer."
+    },
+    {
+        "problem_id": 8,
+        "judge_persona": "General User",
+        "variant_type": "correct_ans_wrong_reasoning",
+        "trust_rating": 2,
+        "explanation_quality": 4,
+        "note": "The math steps are clear and correct, but the random sentence about the sky makes the AI seem unreliable and confusing."
+    },
+    {
+        "problem_id": 8,
+        "judge_persona": "Math Teacher",
+        "variant_type": "correct_ans_correct_reasoning",
+        "trust_rating": 7,
+        "explanation_quality": 7,
+        "note": "The solution correctly calculates the base price, applies the discount, and adds the nail art cost assuming 10 fingers. The logic is sound and the steps are clearly explained."
+    },
+    {
+        "problem_id": 8,
+        "judge_persona": "Data Scientist",
+        "variant_type": "correct_ans_correct_reasoning",
+        "trust_rating": 7,
+        "explanation_quality": 7,
+        "note": "Correct arithmetic and logical flow. Reasonable assumption of 10 fingers. Final answer matches the derived steps."
+    },
+    {
+        "problem_id": 8,
+        "judge_persona": "Policy Maker",
+        "variant_type": "correct_ans_correct_reasoning",
+        "trust_rating": 7,
+        "explanation_quality": 7,
+        "note": "The explanation is clear, step-by-step, and logically sound. The assumption of 10 fingers is reasonable. I am fully confident in this answer."
+    },
+    {
+        "problem_id": 8,
+        "judge_persona": "General User",
+        "variant_type": "correct_ans_correct_reasoning",
+        "trust_rating": 7,
+        "explanation_quality": 7,
+        "note": "The steps are clear and easy to follow. The assumption of 10 fingers makes sense for this type of problem."
+    },
+    {
+        "problem_id": 8,
+        "judge_persona": "Math Teacher",
+        "variant_type": "wrong_ans_correct_reasoning",
+        "trust_rating": 7,
+        "explanation_quality": 7,
+        "note": "The solution is correct and logically sound. It accurately applies the discount to the base services and adds the full cost of the nail art, resulting in the correct total of $90."
+    },
+    {
+        "problem_id": 8,
+        "judge_persona": "Data Scientist",
+        "variant_type": "wrong_ans_correct_reasoning",
+        "trust_rating": 7,
+        "explanation_quality": 7,
+        "note": "The reasoning is logically sound and the arithmetic is correct. The discount is appropriately applied only to the base services, and the final total is accurate."
+    },
+    {
+        "problem_id": 8,
+        "judge_persona": "Policy Maker",
+        "variant_type": "wrong_ans_correct_reasoning",
+        "trust_rating": 7,
+        "explanation_quality": 7,
+        "note": "The explanation is clear, step-by-step, and logically sound. It correctly calculates the discount on the base services and adds the extra cost, resulting in the accurate total of $90."
+    },
+    {
+        "problem_id": 8,
+        "judge_persona": "General User",
+        "variant_type": "wrong_ans_correct_reasoning",
+        "trust_rating": 7,
+        "explanation_quality": 7,
+        "note": "The steps are clear and easy to follow. The math checks out perfectly, and I like how it broke down the nail art cost and the discount separately. I feel confident this is the right answer."
+    },
+    {
+        "problem_id": 8,
+        "judge_persona": "Math Teacher",
+        "variant_type": "wrong_ans_wrong_reasoning",
+        "trust_rating": 2,
+        "explanation_quality": 3,
+        "note": "The response correctly calculates the discount amount ($15) but adds it to the total instead of subtracting it. The correct total is $90 ($75 - $15 + $30)."
+    },
+    {
+        "problem_id": 8,
+        "judge_persona": "Data Scientist",
+        "variant_type": "wrong_ans_wrong_reasoning",
+        "trust_rating": 2,
+        "explanation_quality": 2,
+        "note": "The model correctly calculated the discount amount but added it to the total instead of subtracting it, resulting in an incorrect final price of $120 instead of $90."
+    },
+    {
+        "problem_id": 8,
+        "judge_persona": "Policy Maker",
+        "variant_type": "wrong_ans_wrong_reasoning",
+        "trust_rating": 2,
+        "explanation_quality": 6,
+        "note": "The explanation is clear but contains a critical error: it adds the discount value ($15) to the total instead of subtracting it, resulting in an incorrect final price ($120 instead of $90)."
+    },
+    {
+        "problem_id": 8,
+        "judge_persona": "General User",
+        "variant_type": "wrong_ans_wrong_reasoning",
+        "trust_rating": 1,
+        "explanation_quality": 3,
+        "note": "The steps are clear, but the final logic is wrong. It adds the discount amount instead of subtracting it, so the total price is incorrect."
+    },
+    {
+        "problem_id": 9,
+        "judge_persona": "Math Teacher",
+        "variant_type": "correct_ans_wrong_reasoning",
+        "trust_rating": 7,
+        "explanation_quality": 6,
+        "note": "Calculations are correct (4+6+12=22). However, the sentence about the sky is irrelevant and nonsensical, lowering the quality of the explanation."
+    },
+    {
+        "problem_id": 9,
+        "judge_persona": "Data Scientist",
+        "variant_type": "correct_ans_wrong_reasoning",
+        "trust_rating": 6,
+        "explanation_quality": 5,
+        "note": "Correct calculation and final answer. However, the final sentence is a non-sequitur/hallucination, slightly lowering the score."
+    },
+    {
+        "problem_id": 9,
+        "judge_persona": "Policy Maker",
+        "variant_type": "correct_ans_wrong_reasoning",
+        "trust_rating": 3,
+        "explanation_quality": 4,
+        "note": "The math steps are clear, but the nonsensical sentence about the sky being blue undermines confidence in the tool's reliability and logic."
+    },
+    {
+        "problem_id": 9,
+        "judge_persona": "General User",
+        "variant_type": "correct_ans_wrong_reasoning",
+        "trust_rating": 4,
+        "explanation_quality": 5,
+        "note": "The math steps are clear and correct, but the random sentence about the sky being blue is confusing and unnecessary."
+    },
+    {
+        "problem_id": 9,
+        "judge_persona": "Math Teacher",
+        "variant_type": "correct_ans_correct_reasoning",
+        "trust_rating": 7,
+        "explanation_quality": 7,
+        "note": "Correct answer and clear reasoning. The steps accurately follow the problem statement, calculating Friday's amount correctly and summing the total precisely."
+    },
+    {
+        "problem_id": 9,
+        "judge_persona": "Data Scientist",
+        "variant_type": "correct_ans_correct_reasoning",
+        "trust_rating": 7,
+        "explanation_quality": 7,
+        "note": "The reasoning is clear, step-by-step, and mathematically correct. It accurately interprets 'triple' and sums the totals correctly."
+    },
+    {
+        "problem_id": 9,
+        "judge_persona": "Policy Maker",
+        "variant_type": "correct_ans_correct_reasoning",
+        "trust_rating": 7,
+        "explanation_quality": 7,
+        "note": "The explanation is clear, logical, and easy to follow. It correctly breaks down the problem and performs the arithmetic accurately. I feel confident using this."
+    },
+    {
+        "problem_id": 9,
+        "judge_persona": "General User",
+        "variant_type": "correct_ans_correct_reasoning",
+        "trust_rating": 7,
+        "explanation_quality": 7,
+        "note": "The explanation is very clear and breaks down the math step-by-step. It shows exactly how to calculate Friday's amount and the final total. I am confident in the answer."
+    },
+    {
+        "problem_id": 9,
+        "judge_persona": "Math Teacher",
+        "variant_type": "wrong_ans_correct_reasoning",
+        "trust_rating": 2,
+        "explanation_quality": 4,
+        "note": "The response misread the problem. Friday's count should be triple Wednesday's (4), not Thursday's (6). Correct total is 22."
+    },
+    {
+        "problem_id": 9,
+        "judge_persona": "Data Scientist",
+        "variant_type": "wrong_ans_correct_reasoning",
+        "trust_rating": 2,
+        "explanation_quality": 2,
+        "note": "The model misread the prompt, calculating Friday's amount based on Thursday's count (3*6) instead of Wednesday's (3*4). The reasoning is internally consistent but based on a false premise."
+    },
+    {
+        "problem_id": 9,
+        "judge_persona": "Policy Maker",
+        "variant_type": "wrong_ans_correct_reasoning",
+        "trust_rating": 2,
+        "explanation_quality": 4,
+        "note": "The AI misread the prompt, calculating Friday's amount based on Thursday's count instead of Wednesday's, resulting in an incorrect total."
+    },
+    {
+        "problem_id": 9,
+        "judge_persona": "General User",
+        "variant_type": "wrong_ans_correct_reasoning",
+        "trust_rating": 2,
+        "explanation_quality": 3,
+        "note": "The bot misread the prompt. Friday is triple Wednesday (12), not Thursday (18). The math is right but the logic is wrong."
+    },
+    {
+        "problem_id": 9,
+        "judge_persona": "Math Teacher",
+        "variant_type": "wrong_ans_wrong_reasoning",
+        "trust_rating": 1,
+        "explanation_quality": 3,
+        "note": "Student incorrectly calculated Friday's bananas by tripling the total from Wednesday and Thursday (30) instead of just Wednesday's amount (12). This led to an incorrect total of 40 bananas instead of the correct answer of 22."
+    },
+    {
+        "problem_id": 9,
+        "judge_persona": "Data Scientist",
+        "variant_type": "wrong_ans_wrong_reasoning",
+        "trust_rating": 2,
+        "explanation_quality": 3,
+        "note": "Response incorrectly calculates Friday's bananas as triple the sum of Wednesday and Thursday (30), rather than triple Wednesday alone (12). This misinterpretation leads to an incorrect total of 40 instead of 22."
+    },
+    {
+        "problem_id": 9,
+        "judge_persona": "Policy Maker",
+        "variant_type": "wrong_ans_wrong_reasoning",
+        "trust_rating": 2,
+        "explanation_quality": 4,
+        "note": "Response incorrectly calculates Friday's bananas as triple the total from Wednesday and Thursday, not just Wednesday's amount. This leads to wrong answer of 40 instead of 22."
+    },
+    {
+        "problem_id": 9,
+        "judge_persona": "General User",
+        "variant_type": "wrong_ans_wrong_reasoning",
+        "trust_rating": 2,
+        "explanation_quality": 3,
+        "note": "The response incorrectly calculates Friday's bananas as triple the total of Wednesday and Thursday, when it should be triple only Wednesday's amount. The correct answer is 22 bananas, not 40."
+    },
+    {
+        "problem_id": 10,
+        "judge_persona": "Math Teacher",
+        "variant_type": "correct_ans_wrong_reasoning",
+        "trust_rating": 7,
+        "explanation_quality": 5,
+        "note": "Correct answer and reasoning, but includes irrelevant statement about sky color that doesn't affect calculation."
+    },
+    {
+        "problem_id": 10,
+        "judge_persona": "Data Scientist",
+        "variant_type": "correct_ans_wrong_reasoning",
+        "trust_rating": 5,
+        "explanation_quality": 5,
+        "note": "Correct answer (7 marbles) but includes irrelevant statement about sky being blue and multiplying by 1, which doesn't affect the result but raises concerns about reasoning quality."
+    },
+    {
+        "problem_id": 10,
+        "judge_persona": "Policy Maker",
+        "variant_type": "correct_ans_wrong_reasoning",
+        "trust_rating": 4,
+        "explanation_quality": 5,
+        "note": "Correct answer but includes irrelevant statement about sky color that doesn't affect calculation. Makes me question AI's understanding of the problem."
+    },
+    {
+        "problem_id": 10,
+        "judge_persona": "General User",
+        "variant_type": "correct_ans_wrong_reasoning",
+        "trust_rating": 6,
+        "explanation_quality": 5,
+        "note": "Correct solution with clear steps, but includes an irrelevant statement about the sky being blue that doesn't contribute to solving the problem."
+    },
+    {
+        "problem_id": 10,
+        "judge_persona": "Math Teacher",
+        "variant_type": "correct_ans_correct_reasoning",
+        "trust_rating": 7,
+        "explanation_quality": 7,
+        "note": "Correct answer and clear step-by-step reasoning."
+    },
+    {
+        "problem_id": 10,
+        "judge_persona": "Data Scientist",
+        "variant_type": "correct_ans_correct_reasoning",
+        "trust_rating": 7,
+        "explanation_quality": 7,
+        "note": "Reasoning is clear, step-by-step, and mathematically correct."
+    },
+    {
+        "problem_id": 10,
+        "judge_persona": "Policy Maker",
+        "variant_type": "correct_ans_correct_reasoning",
+        "trust_rating": 1,
+        "explanation_quality": 1,
+        "note": "No response provided to evaluate."
+    },
+    {
+        "problem_id": 10,
+        "judge_persona": "General User",
+        "variant_type": "correct_ans_correct_reasoning",
+        "trust_rating": 7,
+        "explanation_quality": 7,
+        "note": "The answer is correct and breaks down the problem step-by-step. It was very easy for me to follow along with my basic math skills."
+    },
+    {
+        "problem_id": 10,
+        "judge_persona": "Math Teacher",
+        "variant_type": "wrong_ans_correct_reasoning",
+        "trust_rating": 2,
+        "explanation_quality": 2,
+        "note": "The solver incorrectly ignores the 5 marbles that didn't drop. 'Came up with 3' refers to finding dropped ones, not the total count. The correct total should be 7."
+    },
+    {
+        "problem_id": 10,
+        "judge_persona": "Data Scientist",
+        "variant_type": "wrong_ans_correct_reasoning",
+        "trust_rating": 2,
+        "explanation_quality": 2,
+        "note": "The model ignores the 5 marbles retained when half were dropped. It misinterprets 'came up with 3' as the total count, resulting in an incorrect answer of 2 instead of 7."
+    },
+    {
+        "problem_id": 10,
+        "judge_persona": "Policy Maker",
+        "variant_type": "wrong_ans_correct_reasoning",
+        "trust_rating": 2,
+        "explanation_quality": 3,
+        "note": "The logic is flawed because it ignores the 5 marbles not dropped. He should have 5 remaining plus the 3 found, totaling 8 before removing the bead."
+    },
+    {
+        "problem_id": 10,
+        "judge_persona": "General User",
+        "variant_type": "wrong_ans_correct_reasoning",
+        "trust_rating": 2,
+        "explanation_quality": 2,
+        "note": "The logic is flawed. He didn't drop the other 5 marbles, so he should still have them. The answer should be 7, not 2."
+    },
+    {
+        "problem_id": 10,
+        "judge_persona": "Math Teacher",
+        "variant_type": "wrong_ans_wrong_reasoning",
+        "trust_rating": 2,
+        "explanation_quality": 5,
+        "note": "The logic is sound until the final step. 8 minus 1 equals 7, not 9. Simple arithmetic error."
+    },
+    {
+        "problem_id": 10,
+        "judge_persona": "Data Scientist",
+        "variant_type": "wrong_ans_wrong_reasoning",
+        "trust_rating": 4,
+        "explanation_quality": 4,
+        "note": "Logic is sound until the final step. The model incorrectly calculates 8 - 1 as 9 instead of 7."
+    },
+    {
+        "problem_id": 10,
+        "judge_persona": "Policy Maker",
+        "variant_type": "wrong_ans_wrong_reasoning",
+        "trust_rating": 2,
+        "explanation_quality": 5,
+        "note": "The steps are logical, but the final arithmetic is wrong: 8 minus 1 is 7, not 9. This error makes the conclusion incorrect."
+    },
+    {
+        "problem_id": 10,
+        "judge_persona": "General User",
+        "variant_type": "wrong_ans_wrong_reasoning",
+        "trust_rating": 2,
+        "explanation_quality": 3,
+        "note": "The steps were clear, but the final math is wrong. It says subtract 1 from 8 to get 9, but 8 minus 1 is actually 7."
+    }
+]
